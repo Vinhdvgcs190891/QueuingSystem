@@ -1,0 +1,350 @@
+.device-container-setting-update {
+    position: relative;
+    width: 100%;
+    height: 760px;
+    background-color: #f7f7f7;
+
+    .Button-setting-update {
+        position: relative;
+        left: 600px;
+        top: 200px;
+
+        .Button-1-setting-update {
+            margin-left: 40px;
+            height: 48px;
+            width: 147px;
+            left: 179px;
+            top: 0px;
+            border-radius: 8px;
+            padding: 10px 24px 10px 24px;
+            background: #FF9138;
+            box-shadow: 0px 0px 6px 0px #E7E9F2;
+
+            span {
+                height: 22px;
+                width: 99px;
+                left: 24px;
+                top: 13px;
+                border-radius: nullpx;
+                font-family: Nunito;
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 22px;
+                letter-spacing: 0em;
+                text-align: left;
+                color: #FFFFFF;
+            }
+        }
+
+        .Button-2-setting-update {
+            height: 48px;
+            width: 147px;
+            left: 0px;
+            top: 0px;
+            border-radius: 8px;
+            padding: 10px 24px 10px 24px;
+            background: #FFF2E7;
+            border: 1.5px solid #FF9138;
+            box-shadow: 0px 0px 6px 0px #E7E9F2;
+
+            span {
+                height: 22px;
+                width: 54px;
+                left: 46.5px;
+                top: 13px;
+                border-radius: nullpx;
+                font-family: Nunito;
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 22px;
+                letter-spacing: 0em;
+                text-align: left;
+                color: #FF9138;
+            }
+        }
+    }
+
+    .title-setting-update {
+        position: absolute;
+        width: 200px;
+        height: 36px;
+        left: 234px;
+        top: 84px;
+
+        /* 24/24 Bold */
+
+        font-family: "Nunito";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 36px;
+        /* identical to box height, or 150% */
+
+        /* Orange/$-Orange-500 */
+
+        color: #ff7506;
+    }
+
+    .title-1-setting-update {
+        width: 200px;
+        left: 24px;
+        top: 16px;
+        border-radius: nullpx;
+        //styleName: 20/20 Bold;
+        font-family: Nunito;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #FF7506;
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+
+
+
+    .device-infor-setting-update {
+        display: flex;
+        justify-content: space-between;
+        height: 550px;
+        width: 1152px;
+        left: 224px;
+        top: 130px;
+        border-radius: 16px;
+        background: #FFFFFF;
+        box-shadow: 2px 2px 8px 0px #E8EFF4CC;
+        position: relative;
+
+        .left-setting-update {
+            .Code-setting-update {
+                height: 76px;
+                width: 540px;
+                left: 24px;
+                top: 66px;
+                border-radius: 0px;
+                position: absolute;
+
+                label {
+                    height: 24px;
+                    width: 81px;
+                    left: 0px;
+                    top: 0px;
+                    border-radius: nullpx;
+                    //styleName: 16/16 Semi;
+                    font-family: Nunito;
+                    font-size: 16px;
+                    font-weight: 600;
+                    line-height: 24px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    color: #282739;
+                }
+
+                input {
+                    height: 44px;
+                    width: 540px;
+                    left: 0px;
+                    top: 32px;
+                    border-radius: 8px;
+                    padding: 10px 270px 10px 12px;
+                    color: linear-gradient(0deg, #D4D4D7, #D4D4D7),
+                        linear-gradient(0deg, #FFFFFF, #FFFFFF);
+                    border: 1.5px solid #D4D4D7;
+                    color: #A9A9B0;
+                }
+            }
+
+            .Name-setting-update {
+                height: 160px;
+                width: 560px;
+                left: 24px;
+                top: 158px;
+                border-radius: 0px;
+                position: absolute;
+
+                label {
+                    height: 24px;
+                    width: 85px;
+                    left: 0px;
+                    top: 0px;
+                    border-radius: nullpx;
+                    //styleName: 16/16 Semi;
+                    font-family: Nunito;
+                    font-size: 16px;
+                    font-weight: 600;
+                    line-height: 24px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    color: #282739;
+                }
+
+                input {
+                    height: 160px;
+                    width: 540px;
+                    left: 0px;
+                    top: 32px;
+                    border-radius: 8px;
+                    padding: 10px 270px 10px 12px;
+                    color: linear-gradient(0deg, #D4D4D7, #D4D4D7),
+                        linear-gradient(0deg, #FFFFFF, #FFFFFF);
+                    border: 1.5px solid #D4D4D7;
+                    color: #A9A9B0;
+                }
+            }
+
+            .luuy-setting-update {
+                height: 160px;
+                width: 560px;
+                left: 24px;
+                top: 358px;
+                border-radius: 0px;
+                position: absolute;
+                color: #7E7D88;
+
+            }
+        }
+
+        .right-setting-update {
+            position: absolute;
+
+            .phanquyenchucnang-setting-update {
+                height: 24px;
+                width: 166px;
+                left: 610px;
+                top: 65px;
+                border-radius: nullpx;
+                position: absolute;
+                //styleName: 16/16 Semi;
+                font-family: Nunito;
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 24px;
+                letter-spacing: 0em;
+                text-align: left;
+                color: #282739;
+            }
+
+            .check-setting-update {
+                height: 420px;
+                width: 500px;
+                left: 600px;
+                top: 90px;
+                border-radius: 8px;
+                background: #FFF2E7;
+                position: absolute;
+
+                .title-A-setting-update {
+                    padding-top: 5px;
+                    padding-left: 5px;
+                    height: 30px;
+                    width: 177px;
+                    left: 24spx;
+                    top: 16px;
+                    border-radius: nullpx;
+                    //styleName: 20/20 Bold;
+                    font-family: Nunito;
+                    font-size: 20px;
+                    font-weight: 700;
+                    line-height: 30px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    color: #FF7506;
+                }
+
+                .title-B-setting-update {
+                    padding-top: 5px;
+                    padding-left: 5px;
+                    height: 30px;
+                    width: 177px;
+                    left: 24spx;
+                    top: 16px;
+                    border-radius: nullpx;
+                    //styleName: 20/20 Bold;
+                    font-family: Nunito;
+                    font-size: 20px;
+                    font-weight: 700;
+                    line-height: 30px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    color: #FF7506;
+                }
+
+                input {
+                    margin-left: 10px;
+                    margin-top: 20px;
+                }
+            }
+
+
+        }
+    }
+
+    .Button-setting-update {
+        position: relative;
+        left: 620px;
+        top: 130px;
+
+        .Button-1-setting-update {
+            margin-left: 40px;
+            height: 48px;
+            width: 147px;
+            left: 179px;
+            top: 0px;
+            border-radius: 8px;
+            padding: 10px 24px 10px 24px;
+            background: #FF9138;
+            box-shadow: 0px 0px 6px 0px #E7E9F2;
+
+            span {
+                height: 22px;
+                width: 99px;
+                left: 24px;
+                top: 13px;
+                border-radius: nullpx;
+                font-family: Nunito;
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 22px;
+                letter-spacing: 0em;
+                text-align: left;
+                color: #FFFFFF;
+            }
+        }
+
+        .Button-2-setting-update {
+            height: 48px;
+            width: 147px;
+            left: 0px;
+            top: 0px;
+            border-radius: 8px;
+            padding: 10px 24px 10px 24px;
+            background: #FFF2E7;
+            border: 1.5px solid #FF9138;
+            box-shadow: 0px 0px 6px 0px #E7E9F2;
+
+            span {
+                height: 22px;
+                width: 54px;
+                left: 46.5px;
+                top: 13px;
+                border-radius: nullpx;
+                font-family: Nunito;
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 22px;
+                letter-spacing: 0em;
+                text-align: left;
+                color: #FF9138;
+            }
+        }
+    }
+
+    .Red-setting-update {
+        color: red;
+        height: 6px;
+        width: 6px;
+        border-radius: 0px;
+        position: absolute;
+    }
+}

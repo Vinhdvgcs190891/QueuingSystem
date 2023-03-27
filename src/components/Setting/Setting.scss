@@ -1,0 +1,81 @@
+.service-container-setting {
+    background-color: #f7f7f7;
+    height: 760px;
+
+    .title-setting {
+        position: absolute;
+        width: 200px;
+        height: 36px;
+        left: 224px;
+        top: 104px;
+
+        /* 24/24 Bold */
+
+        font-family: "Nunito";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 36px;
+        /* identical to box height, or 150% */
+
+        /* Orange/$-Orange-500 */
+
+        color: #ff7506;
+    }
+
+    .search-box-setting {
+        padding-top: 150px;
+        margin-left: 1100px;
+        height: 72px;
+        width: 240px;
+        left: 1096px;
+        top: 200px;
+        border-radius: 8px;
+    }
+
+    .button-1-setting {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 12px 4px;
+        gap: 4px;
+
+        position: absolute;
+        width: 80px;
+        height: 94px;
+        left: 1450px;
+        top: 258px;
+
+        /* Orange/$-Orange-50 */
+
+        background: #fff2e7;
+        /* down */
+
+        box-shadow: 0px 0px 6px #e7e9f2;
+        border-radius: 8px 0px 0px 8px;
+
+        cursor: pointer;
+
+        .tex-1-setting {
+            font-family: Nunito;
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 19px;
+            letter-spacing: 0em;
+            text-align: center;
+            color: #FF7506;
+        }
+
+        .button-2-setting {
+            border: none;
+            background: #fff2e7;
+        }
+    }
+}
+
+.capnhat-setting {
+    position: relative;
+    margin-left: 1300px;
+    margin-top: -455px;
+}

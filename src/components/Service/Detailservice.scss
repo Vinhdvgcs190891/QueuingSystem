@@ -1,0 +1,373 @@
+.device-container {
+    display: flex;
+    background-color: #f7f7f7;
+    height: 760px;
+
+    .right {
+        display: flex;
+        height: 550px;
+        width: 860px;
+        left: 250px;
+        top: 172px;
+        border-radius: 12px;
+        position: relative;
+        background: #FFFFFF;
+
+        .table {
+            margin-left: -200px;
+            margin-top: -150px;
+            height: 50px;
+            width: 820px;
+            border-radius: 12px;
+        }
+
+        .button-1 {
+            width: 100px;
+            left: 800px;
+            top: -100px;
+        }
+
+        .addList {
+            height: 32px;
+            width: 288px;
+            left: 300px;
+            top: 400px;
+            border-radius: 0px;
+            margin-top: 510px;
+            margin-right: 130px;
+
+        }
+
+        span {
+            height: 24px;
+            width: 74px;
+            left: 25.00244140625px;
+            top: 16px;
+            border-radius: nullpx;
+            //styleName: 16/16 Semi;
+            font-family: Nunito;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 24px;
+            letter-spacing: 0em;
+            text-align: left;
+
+            color: #282739;
+        }
+
+        .status-action {
+            left: 30px;
+            top: 5px;
+
+            span {
+                margin-top: -10px;
+                margin-left: -20px;
+            }
+
+            .select {
+                padding: 10px 56px 13px 12px;
+                width: 160px;
+                height: 44.15px;
+                border: 1.5px solid #d4d4d7;
+                border-radius: 8px;
+            }
+
+            .arrowIcon {
+                left: 130px;
+                top: 40px;
+                z-index: 1;
+                position: relative;
+            }
+        }
+
+        .time-action {
+            display: flex;
+            margin-left: 210px;
+            flex-direction: column;
+
+            span {
+                width: 200px;
+                margin-top: 10px;
+            }
+
+            input {
+                padding: 10px 16px 10px 16px;
+                width: 150px;
+                height: 44.15px;
+                border: 1.5px solid #d4d4d7;
+                border-radius: 8px;
+            }
+        }
+
+        .search-field {
+            height: 44.15287399291992px;
+            width: 130px;
+            left: 488px;
+            top: 43.84765625px;
+            border-radius: 8px;
+            padding: 10px 16px 10px 12px;
+            justify: space-between;
+        }
+    }
+
+    .left {
+        height: 550px;
+        width: 370px;
+        left: 224px;
+        top: 172px;
+        border-radius: 12px;
+        background: #FFFFFF;
+        position: relative;
+
+        .title-1 {
+            height: 30px;
+            width: 250px;
+            left: 16px;
+            top: 16px;
+            border-radius: nullpx;
+            //styleName: 20/20 Bold;
+            font-family: Nunito;
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 30px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #FF7506;
+        }
+
+        .title-2 {
+            margin-left: 20px;
+            margin-top: 10px;
+            height: 30px;
+            width: 136px;
+            left: 16px;
+            top: 170px;
+            border-radius: nullpx;
+            //styleName: 20/20 Bold;
+            font-family: Nunito;
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 30px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #FF7506;
+        }
+
+        .content {
+            margin-left: 20px;
+            margin-top: 20px;
+
+            .Code-device {
+                margin-top: 5px;
+
+                label {
+                    bottom: 200px;
+                    height: 24px;
+                    width: 150px;
+                    left: 16px;
+                    top: 58px;
+                    border-radius: nullpx;
+                    //styleName: 16/16 Semi;
+                    font-family: Nunito;
+                    font-size: 16px;
+                    font-weight: 600;
+                    line-height: 24px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    color: #282739;
+                }
+
+                span {
+                    height: 24px;
+                    width: 29px;
+                    left: 125px;
+                    top: 58px;
+                    border-radius: nullpx;
+                    //styleName: 16/16 Reg;
+                    font-family: Nunito;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    color: #535261;
+                }
+            }
+
+            .Name-device {
+                margin-top: 10px;
+
+                label {
+                    bottom: 200px;
+                    height: 24px;
+                    width: 150px;
+                    left: 16px;
+                    top: 58px;
+                    border-radius: nullpx;
+                    //styleName: 16/16 Semi;
+                    font-family: Nunito;
+                    font-size: 16px;
+                    font-weight: 600;
+                    line-height: 24px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    color: #282739;
+                }
+
+                span {
+                    height: 24px;
+                    width: 29px;
+                    left: 125px;
+                    top: 58px;
+                    border-radius: nullpx;
+                    //styleName: 16/16 Reg;
+                    font-family: Nunito;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    color: #535261;
+                }
+            }
+
+            .Comment-device {
+                margin-top: 10px;
+
+                label {
+                    bottom: 200px;
+                    height: 24px;
+                    width: 150px;
+                    left: 16px;
+                    top: 58px;
+                    border-radius: nullpx;
+                    //styleName: 16/16 Semi;
+                    font-family: Nunito;
+                    font-size: 16px;
+                    font-weight: 600;
+                    line-height: 24px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    color: #282739;
+                }
+
+                span {
+                    height: 24px;
+                    width: 29px;
+                    left: 125px;
+                    top: 58px;
+                    border-radius: nullpx;
+                    //styleName: 16/16 Reg;
+                    font-family: Nunito;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    color: #535261;
+                }
+            }
+        }
+
+        .bottom {
+            top: 190px;
+            left: 10px;
+            width: 100%;
+
+            .options {
+                label {
+                    margin-left: 10px;
+                    height: 24px;
+                    width: 150px;
+                    left: 16px;
+                    top: 222px;
+                    border-radius: nullpx;
+                    //styleName: 16/16 Semi;
+                    font-family: Nunito;
+                    font-size: 16px;
+                    font-weight: 600;
+                    line-height: 24px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    color: #282739;
+                }
+
+                span {
+                    margin-left: 10px;
+                }
+
+                .input {
+                    height: 30px;
+                    border: 2px solid #D4D4D7;
+                    color: #535261;
+                }
+            }
+
+            .options-2 {
+                margin-top: 20px;
+
+                label {
+                    margin-left: 10px;
+                    height: 24px;
+                    width: 46px;
+                    left: 16px;
+                    top: 278px;
+                    border-radius: nullpx;
+                    //styleName: 16/16 Semi;
+                    font-family: Nunito;
+                    font-size: 16px;
+                    font-weight: 600;
+                    line-height: 24px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    color: #282739;
+                }
+
+                span {
+                    margin-left: 115px;
+                    height: 30px;
+                    border: 2px solid #D4D4D7;
+                    color: #535261;
+                }
+            }
+
+            .options-3 {
+                margin-left: 10px;
+                margin-top: 20px;
+
+                label {
+                    height: 24px;
+                    width: 113px;
+                    left: 16px;
+                    top: 324px;
+                    border-radius: nullpx;
+                    //styleName: 16/16 Semi;
+                    font-family: Nunito;
+                    font-size: 16px;
+                    font-weight: 600;
+                    line-height: 24px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    color: #282739;
+                }
+
+                span {
+                    height: 24px;
+                    width: 120px;
+                    left: 16px;
+                    top: 360px;
+                    border-radius: nullpx;
+                    //styleName: 16/16 Reg;
+                    font-family: Nunito;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    color: #282739;
+
+                }
+            }
+        }
+    }
+}
